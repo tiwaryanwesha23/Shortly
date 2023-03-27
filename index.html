@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Primary Meta Tags -->
+    <title>URL shorterner</title>
+    <meta name="title" content="URL shorterner" />
+    <meta
+      name="description"
+      content="Ever wondered how you were going to share that huge link with your friends? We've got you covered. shorten your URLs for free"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jlink.vercel.app" />
+    <meta property="og:title" content="URL shorterner" />
+    <meta
+      property="og:description"
+      content="Ever wondered how you were going to share that huge link with your friends? We've got you covered. shorten your URLs for free"
+    />
+    <meta
+      property="og:image"
+      content="https://github.com/jeronasiedu/urlshortener/blob/main/screenshot.png?raw=true"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://jlink.vercel.app" />
+    <meta property="twitter:title" content="URL shorterner" />
+    <meta
+      property="twitter:description"
+      content="Ever wondered how you're going to share that huge link with your friends? We've got you covered. shorten your URLs for free"
+    />
+    <meta
+      property="twitter:image"
+      content="https://github.com/jeronasiedu/urlshortener/blob/main/screenshot.png?raw=true"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="navbar">
+          <img src="/images/logo.svg" alt="logo of website" />
+          <button class="menu"></button>
+        </div>
+        <section class="hero">
+          <div>
+            <h1>Elevate your brand's visibility</h1>
+            <p>
+              Get noticed and increase brand awareness with custom links that reflect your brand identity.
+            </p>
+            <button><a style="color: white; scroll-behavior: smooth;" href="#generate">Get Started</a></button>
+          </div>
+          <div id="generate">
+            <img
+              src="/images/illustration-working.svg"
+              alt="illustration working"
+            />
+          </div>
+        </section>
+      </header>
+    </div>
+    <main>
+      <div class="container">
+        <section class="middle">
+          <form>
+            <input type="text" placeholder="Shorten a link here" required spellcheck="false"/>
+            <button type="submit" class="submit">Shorten it!</button>
+            <img
+              src="/images/bg-shorten-desktop.svg"
+              alt="shorten url desktop svg"
+              class="desktop shorten"
+            />
+            <img
+              src="/images/bg-shorten-mobile.svg"
+              alt="shorten url desktop svg"
+              class="mobile shorten"
+            />
+          </form>
+          <div class="results">
+
+          </div>
+          <div class="advert">
+            <h1>Comprehensive links</h1>
+            <p>
+              Get a comprehensive understanding of your link performance 
+              across the web with our advanced analytics dashboard.
+            </p>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="/images/icon-brand-recognition.svg"
+                  alt="brand recognition icon"
+                />
+              </div>
+              <h3>Get strong brand image</h3>
+              <p>
+                Branded links create a strong visual identity that helps 
+                establish trust and credibility with your audience.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="/images/icon-detailed-records.svg"
+                  alt="brand recognition icon"
+                />
+              </div>
+              <h3>Access detailed link analytics</h3>
+              <p>
+                Get a complete picture of your audience engagement by 
+                tracking clicks and understanding their behavior.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="/images/icon-brand-recognition.svg"
+                  alt="brand recognition icon"
+                />
+              </div>
+              <h3>Customize links for maximum impact</h3>
+              <p>
+                Take control of your brand identity by customizing your 
+                links to reflect your unique style and tone.
+              </p>
+            </div>
+          </div>
+
+        </section>
+      </div>
+      </div>
+    </main>
+    <aside>
+      <h2>Boost your links today</h2>
+      <button><a style="color: white; scroll-behavior:smooth;" href="#generate">Get Started</a></button>
+      <img
+        src="/images/bg-boost-desktop.svg"
+        alt="boost your links desktop svg"
+        class="desktop boost"
+      />
+      <img
+        src="/images/bg-boost-mobile.svg"
+        alt="boost your links desktop svg"
+        class="mobile boost"
+      />
+    </aside>
+    <footer>
+      <h2>Shortly</h2>
+      <p>Made with 💛 by Pushkar and Anwesha</p>
+    </footer>
+<div class="loader">
+  <div class="spinner"></div>
+</div>
+    <script src="app.js"></script>
+  </body>
+</html>
